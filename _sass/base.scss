@@ -2,11 +2,16 @@
  * Emerald is a simple blog theme built for Jekyll.
  */
 #disqus_thread {
-  overflow: hidden;
-
-  iframe {
-    margin-bottom: -54px;
-  }
+     position: relative;
+}
+#disqus_thread:after {
+     content: "";
+     display: block;
+     height: 55px;
+     width: 100%;
+     position: absolute;
+     bottom: 0;
+     background: white;
 }
 /*- Base reset -*/
 
