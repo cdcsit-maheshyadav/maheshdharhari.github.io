@@ -1,7 +1,13 @@
 /*
  * Emerald is a simple blog theme built for Jekyll.
  */
+#disqus_thread {
+  overflow: hidden;
 
+  iframe {
+    margin-bottom: -54px;
+  }
+}
 /*- Base reset -*/
 
 * {
